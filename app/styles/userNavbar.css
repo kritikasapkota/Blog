@@ -1,0 +1,39 @@
+.user-navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 12px 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-navbar a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.1rem;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.user-navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.user-navbar a:hover {
+  color: #ffedbc;
+}
+
+.user-navbar a:hover::after {
+  width: 100%;
+}

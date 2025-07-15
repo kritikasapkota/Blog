@@ -1,0 +1,19 @@
+.admin-navbar {
+  background-color: #6a4c9c;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.admin-navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.admin-navbar a:hover {
+  color: #f5f0ff;
+}
