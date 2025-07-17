@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -38,3 +39,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 =======
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/r0HTDxqH)
 >>>>>>> ad93a7c8e2048168f5c9eb8cf7d2fc9b2a49c257
+=======
+# food_blog
+>>>>>>> 45e5f56f15748d4bc83402487ac183a7d8a7ef8d

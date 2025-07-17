@@ -1,11 +1,11 @@
 export const foodItems = [
   {
     id: "momo",
-    name: "Buff Momo",
+    name: "Chicken Momo",
     image: "/momo.jpg",
     price: 120,
     rating: 4.5,
-    description: "Steamed dumplings filled with spicy buff meat."
+    description: "Steamed dumplings filled with spicy chicken meat."
   },
   {
     id: "selroti",
