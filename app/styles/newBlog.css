@@ -29,7 +29,7 @@
 .new-blog-input:focus,
 .new-blog-textarea:focus {
   outline: none;
-  border-color: #7f6bb4; /* soft lavender border */
+  border-color: #7f6bb4; 
 }
 
 .new-blog-textarea {
