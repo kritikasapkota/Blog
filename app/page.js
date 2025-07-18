@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // import Image from "next/image";
 // import styles from "./page.module.css";
 
@@ -116,25 +115,3 @@ export default function Home() {
     </div>
   );
 }
-=======
-import Navbar from './components/Navbar';
-import TopRestaurants from './components/TopRestaurants';
-import FoodScroll from './components/FoodScroll';
-import RestaurantCards from './components/RestaurantCards';
-
-export default function HomePage() {
-  return (
-    <>
-      <Navbar />
-      <TopRestaurants />
-      <FoodScroll />
-      <RestaurantCards />
-    </>
-  );
-}
-
-
-
-
-
->>>>>>> e9bdf03c88d8adaa55ff3d8aa80dc76b92642099

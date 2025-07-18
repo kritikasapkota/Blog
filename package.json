@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "blogs",
-=======
-  "name": "foodmandu",
->>>>>>> e9bdf03c88d8adaa55ff3d8aa80dc76b92642099
   "version": "0.1.0",
   "private": true,
   "scripts": {
