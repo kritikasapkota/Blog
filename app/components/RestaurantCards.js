@@ -9,7 +9,7 @@ export default function RestaurantCards() {
       <div className={styles.grid}>
         {foodItems.map((item) => (
           <Link key={item.id} href={`/order/${item.id}`} className={styles.card}>
-            <img src={item.image} alt={item.name} className={styles.img}/>
+            <image src={item.image} alt={item.name} className={styles.img}/>
             <h3>{item.name}</h3>
             <p>Rs {item.price}</p>
             <p>⭐ {item.rating}</p>

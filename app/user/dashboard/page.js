@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import UserNavbar from '../../components/UserNavbar';
 import '../../styles/userDashboard.css';
 
-
+import Image from "next/image";
 export default function UserDashboard() {
   const r = useRouter();
   const [blogs, setBlogs] = useState([]);
@@ -25,7 +25,7 @@ export default function UserDashboard() {
         <div className="blog-grid">
           {blogs.map(blog => (
             <div className="blog-card" key={blog.id}>
-              <img src={`/blogImages/${blog.img}`} alt={blog.title} className="blog-img"/>
+              <Image src={`/blogImages/${blog.img}`} alt={blog.title} className="blog-img"/>
               <div className="blog-title">{blog.title}</div>
             </div>
           ))}

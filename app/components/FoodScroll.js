@@ -2,7 +2,7 @@
 import { useRef } from 'react';
 import styles from '../styles/foodscroll.module.css';
 import { foodItems } from '../data/foodData';
-
+import Image from "next/image";
 export default function FoodScroll() {
   const scrollRef = useRef(null);
 
@@ -29,7 +29,7 @@ export default function FoodScroll() {
         <div className={styles.scroll} ref={scrollRef}>
           {foodItems.map((item) => (
             <div key={item.id} className={styles.card}>
-              <img
+              <Image
                 src={item.image}
                 alt={item.name}
                 className={styles.cardImage}

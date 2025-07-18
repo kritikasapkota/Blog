@@ -1,12 +1,12 @@
 'use client';
 import '../styles/userNavbar.css';
 
-
+import Link from 'next/link';
 export default function UserNavbar() {
   return (
     <nav className="user-navbar">
-      <a href="/blogs">Blogs</a>
-      <a href="/user/dashboard">My Dashboard</a>
+      <Link href="/blogs">Blogs</Link>
+      <Link href="/user/dashboard">My Dashboard</Link>
     </nav>
   );
 }

@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import AdminNavbar from '../../components/AdminNavbar';
 import '../../styles/manageBlogs.css';
+import Image from "next/image";
 
 export default function ManageBlogs() {
   const [blogs, setBlogs] = useState([]);
@@ -36,7 +37,7 @@ export default function ManageBlogs() {
         <div className="blog-grid">
           {blogs.map(b => (
             <div key={b.id} className="blog-card">
-              <img src={`/blogImages/${b.img}`} alt={b.title} />
+              <Image src={`/blogImages/${b.img}`} alt={b.title} />
               <h3>{b.title}</h3>
               <p>{b.desc}</p>
               <div className="buttons">

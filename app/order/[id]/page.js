@@ -34,7 +34,7 @@ export default function OrderPage({ params }) {
           </p>
         </div>
         <div className={styles.foodRight}>
-          <img src="/mushroom_pizza.jpg" alt="Pizza" className={styles.foodImg} />
+          <image src="/mushroom_pizza.jpg" alt="Pizza" className={styles.foodImg} />
           <button className={styles.addButton}>Add</button>
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function OrderPage({ params }) {
           </p>
         </div>
         <div className={styles.foodRight}>
-          <img src="/capsicum_pizza.jpg" alt="Pizza" className={styles.foodImg} />
+          <Image src="/capsicum_pizza.jpg" alt="Pizza" className={styles.foodImg} />
           <button className={styles.addButton}>Add</button>
         </div>
       </div>

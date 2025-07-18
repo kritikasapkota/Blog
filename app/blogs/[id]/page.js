@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import UserNavbar from '../../components/UserNavbar';
 import '../../styles/blogDetail.css';
+import Image from "next/image";
 
 export default function BlogDetail() {
   const { id } = useParams();
@@ -29,7 +30,7 @@ export default function BlogDetail() {
       <UserNavbar />
       <main className="blog-detail-container">
         <h2 className="blog-detail-title">{blog.title}</h2>
-        <img
+        <Image
           src={`/blogImages/${blog.img}`}
           alt={blog.title}
           className="blog-detail-image"

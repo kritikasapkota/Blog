@@ -3,6 +3,10 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import AdminNavbar from '../../components/AdminNavbar';
 import '../../styles/adminDashboard.css';
+import Image from "next/image";
+
+
+
 
 export default function AdminDashboard() {
   const router = useRouter();
@@ -58,7 +62,7 @@ export default function AdminDashboard() {
         <div className="blog-grid">
           {blogs.map((blog) => (
             <div className="blog-card" key={blog.id}>
-              <img
+              <Image
                 src={`/blogImages/${blog.img}`}
                 alt={blog.title}
                 className="blog-img"
